@@ -150,18 +150,18 @@ image stye*/
     text-align: center;
 }
 .servicesOptionsFlex {
-    width: 100%;
+    width: 96%;
     flex-direction: row;
     display: grid;
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, max(400px, 100%/4)), 1fr));
     grid-template-rows:auto;
     row-gap: 3vh;
+    column-gap: 2vw;
     justify-content: center;
     border-bottom:1px solid rgba(149, 151, 149, 0.644);
     border-top:1px solid rgba(149, 151, 149, 0.644);
-    padding-top: 2%;
-    padding-bottom: 2%;
+    margin: 2%;
 }
 .addtionalOptionsFlex{
     width: 100%;
@@ -171,7 +171,7 @@ image stye*/
     grid-template-columns: repeat(auto-fit, minmax(min(100%, max(500px, 100%/3)), 1fr));
     grid-template-rows:auto;
     row-gap: 2vh;
-    column-gap: 2v2;
+    column-gap: 2vw;
     justify-items: center;
     border-bottom:1px solid rgba(149, 151, 149, 0.644);
     border-top:1px solid rgba(149, 151, 149, 0.644);
@@ -273,7 +273,6 @@ image stye*/
     display: none;
     position: fixed;
     width:76%;
-    height:76%;
     background-color: rgba(3, 1, 116, 1);
     left:50%;
     top:70%;
