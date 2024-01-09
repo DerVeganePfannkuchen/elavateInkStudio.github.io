@@ -44,9 +44,9 @@ p{
 }
 .navTitle{
     display: inline-block;
-    position: absolute;
-    top:25%;
-    transform: translateY(-50%);
+    position: relative;
+    height:100%;
+    transform: translateY(-25%);
     align-self: center;
     height: 100%;
     margin-left: 1.5vw;
@@ -90,7 +90,6 @@ image stye*/
     position: relative;
     right:-50%;
     transform: translateX(-50%);
-    border:1px solid rgba(149, 151, 149, 0.644);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -105,12 +104,31 @@ image stye*/
 .mainIntroFlexgroupBoxOne{
     height: 100%;
     width: 100%;
-    background-color: beige;
+}
+.mainIntroFlexgroupBoxOneImg{
+    position: relative;
+    right:-50%;
+    bottom:-50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height:80%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.mainIntroFlexgroupBoxTwoTextBox{
+    position: relative;
+    right:-50%;
+    bottom:-50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 60%;
+}
+.mainIntroFlexgroupBoxTwoTextBoxTitle, .mainIntroFlexgroupBoxTwoTextBoxText{
+    text-align: center;
 }
 .mainIntroFlexgroupBoxTwo{
     height:100%;
     width: 100%;
-    background-color: skyblue;
 }
 /*services*/
 .servicesTitle, .misionStatmentTitle, .bookingTitle{
@@ -183,7 +201,6 @@ image stye*/
     right:-50%;
     transform: translateX(-50%);
     gap:3vh;
-    margin-bottom: 7%;
 }
 .bookingButton{
     width:60%;
@@ -198,6 +215,9 @@ image stye*/
     background-color: var(--thirdColor);
     color:white;
 
+}
+.bookingFiller{
+    height:4vh;
 }
 /*footer*/
 .footer{
@@ -214,8 +234,6 @@ image stye*/
     width:100%;
     gap:1%;
     justify-content: center;
-    
-    
 }
 .quickLinksLink{
     cursor: pointer;
