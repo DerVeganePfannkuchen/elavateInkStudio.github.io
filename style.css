@@ -1,0 +1,244 @@
+:root{
+    --mainColor:white;
+    --secondaryColor: rgb(242, 200, 48);
+    --thirdColor: rgb(2, 1, 116);
+    --lightHovercolor:rgb(255, 229, 143);
+}
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Quicksand', sans-serif;
+}
+h1,h2,h3{
+    font-weight: 400;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.5em;
+    line-height: 1.7;
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+/*nav*/
+.nav{
+    width: 100%;
+    height:8%;
+    position: fixed;
+    top:0;
+    color:white;
+    background-color: rgba(16, 21, 40, 0.626);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 50000;  
+}
+.nav:hover{
+
+}
+.navTitle{
+    display: inline-block;
+    position: absolute;
+    top:25%;
+    transform: translateY(-50%);
+    align-self: center;
+    height: 100%;
+    margin-left: 1.5vw;
+    
+}
+.navOptionsTitle{
+    align-self:center;
+     margin: 0%;
+     transition: ease-in-out .4s;
+     cursor: pointer;
+}
+.navOptionsTitle:hover{
+    color:var(--secondaryColor)
+}
+.navOptions{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    float: right;
+    margin-right: 3%;
+    gap:3%;
+    height: 100%;
+}
+.filler{
+    height:100000px;
+}
+/*end nav*/
+/*main content
+image stye*/
+.homePic{
+    /*margin-top: 8.1vh;*/
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+/*main Intro*/
+.mainIntro{
+    width: 86%;
+    height:180%;
+    position: relative;
+    right:-50%;
+    transform: translateX(-50%);
+    border:1px solid rgba(149, 151, 149, 0.644);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.mainIntroFlexgroup{
+    height: 32%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.mainIntroFlexgroupBoxOne{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+.mainIntroFlexgroupBoxTwo{
+    height:100%;
+    width: 100%;
+    background-color: skyblue;
+}
+/*services*/
+.servicesTitle, .misionStatmentTitle, .bookingTitle{
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+}
+.servicesOptionsFlex, .addtionalOptionsFlex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom:1px solid rgba(149, 151, 149, 0.644);
+    border-top:1px solid rgba(149, 151, 149, 0.644);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.servicesOptionsFlexOption,.addtionalOptionsFlexOption{
+    width: 25%;
+    transition: ease-in-out .4s;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.servicesOptionsFlexOption:hover, .addtionalOptionsFlexOption:hover{
+    background-color: var(--lightHovercolor);
+}
+.servicesOptionsFlexOptionTitle, .bookingHelpText, .misionStatmentText, .servicesOptionsFlexOptionTextDescrption, .addtionalOptionsFlexOptionTitle, .servicesOptionsFlexOptionDescrption, .addtionalOptionsFlexOptionTextDescrption{
+    text-align: center;
+}
+.servicesOptionsFlexOptionTextDescrption{
+    position: relative;
+    margin: 2%;
+    margin-bottom: 10%;
+}
+.servicesOptionsFlexOptionDescrption{
+    text-decoration: underline;
+}
+.addtionalOptionsTitle{
+    margin-left: 2%;
+}
+.servicesFiller{
+    height:10%;
+}
+/* Mission Statment*/
+.misionStatment{
+    width: 66%;
+    position: relative;
+    right:-50%;
+    transform: translateX(-50%);
+    color:white;
+}
+.missionFiller{
+    height:25%;
+}
+.missionBox{
+    background-color: var(--thirdColor);
+    padding:10%;
+}
+/*booking*/
+.booking{
+    background-color: var(--secondaryColor);
+}
+.bookingFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    position: relative;
+    align-items: center;
+    right:-50%;
+    transform: translateX(-50%);
+    gap:3vh;
+    margin-bottom: 7%;
+}
+.bookingButton{
+    width:60%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid var(--thirdColor);
+    border-radius: 5000px;
+    transition: ease-in-out .4s;
+    cursor: pointer;
+}
+.bookingButton:hover{
+    background-color: var(--thirdColor);
+    color:white;
+
+}
+/*footer*/
+.footer{
+    border-top: 1px solid rgba(149, 151, 149, 0.644);
+    background: black;
+}
+.quickLinksTitle{
+    color:white;
+}
+.quickLinksFlex{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    gap:1%;
+    justify-content: center;
+    
+    
+}
+.quickLinksLink{
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+.quickLinksLink:hover,.quickLinksLinkTwo:hover{
+    color:var(--secondaryColor);
+}
+.quickLinksFlexTwo{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:-50%;
+    transform: translateX(-50%);
+    gap:1%;
+    justify-content: center;
+   padding-bottom: 2%;
+}
+.quickLinksLinkTwo{
+    cursor: pointer;
+    transition: ease-in-out .4s;
+    text-align: center;
+    margin: 0%;
+}
+
