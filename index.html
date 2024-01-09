@@ -31,8 +31,10 @@
             main image
         -->
         <img class="homePic" src="Assets/jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg" alt="podcast mic">
+       <div class="podcastFiller"></div>
+        <h1 class = "podcast">Podcast</h1>
+        <div class="podcastFiller"></div>
         <div class="mainIntro">
-            <div class="mainIntroFlexgroup">
                 <div class="mainIntroFlexgroupBoxOne">
                     <img src="Assets/mohammad-metri-1oKxSKSOowE-unsplash.jpg" alt="you are listing to you" class="mainIntroFlexgroupBoxOneImg">
                 </div>
@@ -48,25 +50,24 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="mainIntroFlexgroup">
+                
                 <div class="mainIntroFlexgroupBoxOne">
-                    <div class="mainIntroFlexgroupBoxTwoTextBox">
-                        <h2 class="mainIntroFlexgroupBoxTwoTextBoxTitle">Media Editing</h2>
-                        <p class="mainIntroFlexgroupBoxTwoTextBoxText">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                             in voluptate velit esse cillum dolore eu
-                        </p>
-                    </div>
+                    <h2 class="mainIntroFlexgroupBoxTwoTextBoxTitle">Media Editing</h2>
+                    <p class="mainIntroFlexgroupBoxTwoTextBoxText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                         in voluptate velit esse cillum dolore eu
+                    </p>
                 </div>
                 <div class="mainIntroFlexgroupBoxTwo">
                     <img src="Assets/onur-binay-eTlkUZX1U0s-unsplash.jpg" alt="you are listing to you" class="mainIntroFlexgroupBoxOneImg">
+                   
+                       
                 </div>
-            </div>
-            <div class="mainIntroFlexgroup">
+            
+           
                 <div class="mainIntroFlexgroupBoxOne">
                     <img src="Assets/austin-distel-L3OV19xVi8Q-unsplash.jpg" alt="you are listing to you" class="mainIntroFlexgroupBoxOneImg">
                 </div>
@@ -82,7 +83,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            
         </div>
          <!--mission statement-->
          <div class="missionFiller"></div>
@@ -252,13 +253,27 @@
             <div class="bookingFiller"></div>
             <h1 class="bookingTitle">Not sure Whats best for you? contact us for a consotation!</h1>
             <div class="bookingFlex">
-                <button class="bookingButton"><h1>Contact</h1></button>
+                <button class="bookingButton" onclick="openPopup()"><h1>Contact</h1></button>
                 <h2 class="bookingHelpText">Already have an appointment? or wating on edited Media? click below for help.</h2>
                 <button class="bookingButton"><h1>Help</h1></button>
             </div>
             <div class="bookingFiller"></div>
         </div>
         <div class="servicesFiller"></div>
+        <div class="bookingPopup">
+            <h2 class="bookingPopupClose"> Close</h2>
+            <h1 class="bookingPopupTitle">Contact</h1>
+            <h2 class="bookingPopupTitle">Location</h2>
+            <h3 class="bookingPopupTitle">address</h3>
+            <h2 class="bookingPopupTitle">Phone</h2>
+            <h3 class="bookingPopupTitle">Phone: +1 190 853 3321</h3>
+            <h2 class="bookingPopupTitle">Email</h2>
+            <h3 class="bookingPopupTitle">Email@emial.com</h3>
+            <h2 class="bookingPopupTitle">Hours of operations</h2>
+            <h3 class="bookingPopupTitle">Mon - Sat: 09:00-17:00</h3>
+            <h3 class="bookingPopupTitle">Sun: Closed</h3>
+        </div>
+        <div class="bookingPopupShield"></div>
         <!--end of main content-->
         <!--Footer-->
         <footer class ="footer">
@@ -279,5 +294,6 @@
                 <h3 class="quickLinksLinkTwo">email: Email@eamial.com</h3>
             </div>
         </footer>
+        <script src="script.js" defer></script>
     </body>
 </Html>
