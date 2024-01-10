@@ -2,6 +2,21 @@ const bookingClosePopup = document.querySelector('.bookingPopupClose')
 const bookingPopupShield = document.querySelector('.bookingPopupShield')
 const bookingPopup = document.querySelector('.bookingPopup')
 const bookingPopupTitle =document.getElementsByClassName('bookingPopupTitle')
+let sideNavCheck = document.getElementById('sideNavCheck')
+let root = document.documentElement
+
+//checks to see if the side nave box is selected
+
+sideNavCheck.addEventListener( "change", () => {
+    if ( sideNavCheck.checked ) {
+      console.log('active')
+      root.style.setProperty('--overflow', "hidden");
+
+    } else {
+        console.log('not')
+        root.style.setProperty('--overflow', "scroll");
+    }
+ });
 
 bookingClosePopup.addEventListener('click',event =>{
     bookingPopup.classList.add('closing')

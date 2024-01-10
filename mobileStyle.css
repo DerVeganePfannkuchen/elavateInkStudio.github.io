@@ -1,0 +1,22 @@
+@media screen and (max-width :1162px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobileInlineblock{
+        display: inline-block;
+    }
+    .mobileFlex{
+       display:  flex;
+    }
+}
+@media screen and (max-width :460px){
+    .navTitle{
+        width: 80%;
+    }
+    .nav{
+        border-radius: 20px;
+    }
+}
