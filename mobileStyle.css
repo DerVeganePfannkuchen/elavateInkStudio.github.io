@@ -26,3 +26,9 @@
         --hamburgerMargins:4vh;
     }
 }
+@media screen and (max-width :350px){
+    .bookingButton{
+        width: 100%;
+    }
+}
+
