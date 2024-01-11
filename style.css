@@ -172,7 +172,7 @@ a{
 /* side bar */
 .sidebar{
     transition: translate var(--animationDely);
-    translate: 0 -100%; 
+    translate: 0 -150%; 
     padding-top: calc(var(--hamburgerHeight) + var(--hamburgerMargins) + 1em);
     background-color: var(--foreground);
     color: var(--background);
