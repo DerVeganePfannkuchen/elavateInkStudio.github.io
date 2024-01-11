@@ -397,7 +397,7 @@ image stye*/
 .bookingButtonA{
     width: 100%;
 }
-.bookingButton:hover{
+.bookingButton:hover, .bookingButtonH:hover{
     background-color: var(--thirdColor);
     color:white;
 
