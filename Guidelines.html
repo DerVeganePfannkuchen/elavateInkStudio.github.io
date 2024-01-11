@@ -2,6 +2,7 @@
 <Html lang =en>
     <head>
      <meta charset="utf-8">
+     <meta name="format-detection" content="telephone=no">
         <meta name="viewport"  content="width= device-width, initial-scale=1">
         <link rel= "stylesheet" href="style.css">
         <link rel= "stylesheet" href="guidelines.css">
@@ -12,30 +13,31 @@
     </head>
     <body>
         <header>
-        <div class="nav">
-            <div class="navTitleBox">
-                <h1 class="navTitle">Elavateink Studios</h1>
+            <div class="nav">
+                <div class="navTitleBox">
+                    <a href="index.html"><h1 class="navTitle">Elavateink Studios</h1></a>
+                </div>
+                
+                <div class="navOptions desktop">
+                    <a href="About.html" class="navOptionsTitle"><h2 >About</h2></a>
+                    <a href="Services.html" class="navOptionsTitle"><h2 >Services</h2></a>
+                    <h2 class="navOptionsTitle" >Schedule</h2>
+                    <a href="Guidelines.html" class="navOptionsTitle"><h2 >Guidelines</h2></a>
+                    <h2 class="navOptionsTitle">DE</h2>
+                </div>
+                
             </div>
-            
-            <div class="navOptions desktop">
-                <h2 class="navOptionsTitle">About</h2>
-                <h2 class="navOptionsTitle">Services</h2>
-                <h2 class="navOptionsTitle">Schedule</h2>
-                <h2 class="navOptionsTitle">Guidelines</h2>
-                <h2 class="navOptionsTitle">DE</h2>
-            </div>
-            
-        </div>
         <label class ='hambugerMenu mobileFlex'>
             <input id ="sideNavCheck" type="checkbox" />
         </label>
         <aside class ="sidebar mobile">
-            <nav>
-                <div>About</div>
-                <div>Services</div>
-                <div>Schedule</div>
-                <div>Guidelines</div>
-                <div>DE</div>
+            <nav class="sideNavFlex">
+                <a href="About.html" class="sideNavFlexItem"><h2 class="sideNavFlexItemText" >About</h2></div></a>
+                <a href="Services.html" class="sideNavFlexItem"> <div class="sideNavFlexItem"><h2 class="sideNavFlexItemText">Services</h2></div></a>
+                <a href="About.html" class="sideNavFlexItem"> <div class="sideNavFlexItem"><h2 class="sideNavFlexItemText">Schedule</h2></div></a>
+                <a href="Guidelines.html" class="sideNavFlexItem"><div class="sideNavFlexItem"><h2 class="sideNavFlexItemText">Guidelines</h2></div></a>
+              <div class="sideNavFlexItem"><h2 class="sideNavFlexItemText">DE</h2></div>
+                
             </nav>
         </aside>
         </header>
@@ -148,24 +150,24 @@
         <div class="guideSpace"></div>
         
 
-               <!--Footer-->
-               <footer class ="footer">
-                <div class="quickLinksFlex">
-                    <h3 class="quickLinksLink">Help</h3>
-                    <h3 class="">|</h3>
-                    <h3 class="quickLinksLink">About</h3>
-                    <h3 class="">|</h3>
-                    <h3 class="quickLinksLink">Services</h3>
-                    <h3 class="">|</h3>
-                    <h3 class="quickLinksLink">Schedule</h3>
-                    <h3 class="">|</h3>
-                    <h3 class="quickLinksLink">DE</h3>
-                </div>
-                <div class="quickLinksFlexTwo">
-                    <h3 class="quickLinksLinkTwo">Phone: +1 190 853 3321</h3>
-                    <h3 class="quickLinksLinkTwo">email: Email@eamial.com</h3>
-                </div>
-            </footer>
+     <!--Footer-->
+     <footer class ="footer">
+        <div class="quickLinksFlex">
+           <a href="Guidelines.html"><h3 class="quickLinksLink">Help</h3></a> 
+            <h3 class="">|</h3>
+            <a href="About.html"><h3 class="quickLinksLink">About</h3></a> 
+            <h3 class="">|</h3>
+            <a href="Services.html"><h3 class="quickLinksLink">Services</h3></a> 
+            <h3 class="">|</h3>
+            <h3 class="quickLinksLink">Schedule</h3>
+            <h3 class="">|</h3>
+            <h3 class="quickLinksLink">DE</h3>
+        </div>
+        <div class="quickLinksFlexTwo">
+            <h3 class="quickLinksLinkTwo"><a href="tel: +1 190 853 3321"> +1 190 853 3321</a></h3>
+            <h3 class="quickLinksLinkTwo">email: Email@eamial.com</h3>
+        </div>
+    </footer>
             <script src="script.js" defer></script>
 </body>
 </Html>
