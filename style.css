@@ -387,6 +387,7 @@ image stye*/
     border-radius: 5000px;
     transition: ease-in-out .4s;
     cursor: pointer;
+    color: black;
 }
 .bookingButton:hover{
     background-color: var(--thirdColor);
