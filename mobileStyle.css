@@ -27,7 +27,7 @@
     }
 }
 @media screen and (max-width :350px){
-    .bookingButton{
+    .bookingButton,.bookingButtonH{
         width: 100%;
     }
 }

@@ -378,7 +378,7 @@ image stye*/
     transform: translateX(-50%);
     gap:3vh;
 }
-.bookingButton{
+.bookingButton,.bookingButtonH{
     padding: 0px 2vw;
     height: 20%;
     width: 60%;
@@ -388,6 +388,14 @@ image stye*/
     transition: ease-in-out .4s;
     cursor: pointer;
     color: black;
+}
+.bookingButtonH{
+    position: relative;
+    right:-50%;
+    transform: translateX(-50%);
+}
+.bookingButtonA{
+    width: 100%;
 }
 .bookingButton:hover{
     background-color: var(--thirdColor);
