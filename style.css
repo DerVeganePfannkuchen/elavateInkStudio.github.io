@@ -8,7 +8,8 @@
     --hamburgerGap:1vh;
     --foreground:white;
     --background:rgb(2, 1, 116);
-    --hamburgerMargins:.8vh;
+    --hamburgerMargins:1vh;
+    --hamburgerMarginsRight:1vh;
     --animationDely: ease-in-out 200ms;
     --hamburgerHeight: calc(var(--barHeight) * 3 + var(--hamburgerGap) * 2);
     --overflow: scroll;
@@ -48,11 +49,11 @@ p{
     position: fixed;
     top:0;
     color:white;
-    background-color: rgba(16, 21, 40, 0.626);
+    background-color: rgba(16, 21, 40, 1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     z-index: 5000;  
-    border-radius: 17px;
+    border-radius: 0px;
 }
 .navTitleBox{
     display: inline-flex;
@@ -124,7 +125,7 @@ p{
     align-items: end;
     position: fixed;
     top: var(--hamburgerMargins);
-    right: var(--hamburgerMargins);
+    right: var(--hamburgerMarginsRight);
     z-index: 9000;
     cursor: pointer;
 }
@@ -172,6 +173,7 @@ p{
     min-height: 100vh;
     text-align: center;
     position: fixed;
+    top:0;
     z-index: 8999;
     width: 100%;
 }
@@ -235,7 +237,7 @@ image stye*/
     width: 85%;
     height:80%;
 }
-.mainIntroFlexgroupBoxTwoTextBoxTitle, .mainIntroFlexgroupBoxTwoTextBoxText{
+.mainIntroFlexgroupBoxTwoTextBoxTitle, .mainIntroFlexgroupBoxTwoTextBoxText, .textCenter{
     text-align: center;
 }
 .mainIntroFlexgroupBoxTwo{

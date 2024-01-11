@@ -1,3 +1,8 @@
+@media screen and (max-width :1300px){
+    .bookingFlex{
+         width: 87%;
+    }
+ }
 @media screen and (max-width :1162px){
     .mobile{
         display: block;
@@ -12,11 +17,12 @@
        display:  flex;
     }
 }
+
 @media screen and (max-width :460px){
     .navTitle{
         width: 80%;
     }
-    .nav{
-        border-radius: 20px;
+    :root{
+        --hamburgerMargins:4vh;
     }
 }

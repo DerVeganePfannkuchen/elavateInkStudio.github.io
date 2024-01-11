@@ -1,0 +1,36 @@
+:root{
+    box-sizing: border-box;
+}
+.h3{
+    line-height: 1em;
+}
+.aboutElevatedInk{
+    position: relative;
+    right:-50%;
+    transform: translateX(-50%); 
+    width: 95%; 
+    background-color: var(--thirdColor);
+    margin-top: 10em;
+    color:white;
+    border-radius: 20px;
+}
+.ravenhilImg{
+    position: relative;
+    right:-50%;
+    transform: translateX(-50%); 
+    width: 85%;
+    height: 60vh;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.ravenhilDescription{
+    position: relative;
+    right:-50%;
+    transform: translateX(-50%); 
+    width: 75%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.ravenfiller{
+    height: 5vh;
+}

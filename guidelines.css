@@ -1,0 +1,33 @@
+.topG{
+    margin-top: 12vh;
+}
+.guidelineTitleBubble{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    right:-50%;
+    transform: translateX(-50%); 
+    width: 95%; 
+    background-color: var(--thirdColor);
+    margin-bottom: 1em;
+    color:white;
+    border-radius: 20px;
+}
+
+.guidelineTitleBubbleAlt{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    right:-50%;
+    transform: translateX(-50%); 
+    width: 95%; 
+    background-color: var(--secondaryColor);
+    margin-bottom: 1em;
+    color:black;
+    border-radius: 20px;
+}
+.guideSpace{
+    height: 8vh;
+}
