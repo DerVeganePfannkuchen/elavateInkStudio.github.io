@@ -19,13 +19,17 @@
 }
 
 @media screen and (max-width :460px){
-    .navTitle{
-        width: 80%;
-    }
     :root{
-        --hamburgerMargins:4vh;
+        --hamburgerMargins:2.5vh;
+        --hamburgerGap:1.5vh;
+        --barWidth: 12vw;
+        --barHeight:.8vh;
+    }
+    .mobileBrNav{
+        display: block;
     }
 }
+
 @media screen and (max-width :350px){
     .bookingButton,.bookingButtonH{
         width: 100%;

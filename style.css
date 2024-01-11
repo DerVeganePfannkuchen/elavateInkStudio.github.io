@@ -63,6 +63,7 @@ a{
     display: inline-flex;
     justify-content: flex-start;
     margin-left: 1.5vw;
+    width: 100%;
 }
 .navTitle{
     display: inline-block;
@@ -70,7 +71,9 @@ a{
     height:100%;
     align-self: center;
     margin: 0%;
-    
+}
+.navTitleA{
+    width: max-content;
 }
 .navOptionsTitle{
     align-self:center;
@@ -169,7 +172,7 @@ a{
 /* side bar */
 .sidebar{
     transition: translate var(--animationDely);
-    translate: 100%; 
+    translate: 0 -100%; 
     padding-top: calc(var(--hamburgerHeight) + var(--hamburgerMargins) + 1em);
     background-color: var(--foreground);
     color: var(--background);
@@ -189,8 +192,12 @@ a{
     display: flex;
     flex-direction: column;
     gap:1%;
-    height: 100%;
+    height: 90%;
     justify-self: center;
+}
+.sideNavFlex :last-child{
+
+    border-radius:0px 0px 25px 25px;
 }
 .sideNavFlexItem{
     background-color: coral;
@@ -575,7 +582,7 @@ image stye*/
     display: block;
 }
 /*global*/
-.mobile, .mobileInlineblock,.mobileFlex{
+.mobile, .mobileInlineblock,.mobileFlex,.mobileBrNav{
     display: none;
 }
 
