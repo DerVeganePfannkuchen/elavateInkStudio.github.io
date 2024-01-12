@@ -200,7 +200,7 @@ a{
     border-radius:0px 0px 25px 25px;
 }
 .sideNavFlexItem{
-    background-color: coral;
+    background-color: var(--secondaryColor);
     height: 25%;
     margin: 0;
     display: flex;
