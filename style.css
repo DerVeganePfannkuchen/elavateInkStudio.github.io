@@ -10,7 +10,7 @@
     --background:rgb(2, 1, 116);
     --hamburgerMargins:1vh;
     --hamburgerMarginsRight:1vh;
-    --animationDely: ease-in-out 200ms;
+    --animationDely: ease-in-out 300ms;
     --hamburgerHeight: calc(var(--barHeight) * 3 + var(--hamburgerGap) * 2);
     --overflow: scroll;
 }
